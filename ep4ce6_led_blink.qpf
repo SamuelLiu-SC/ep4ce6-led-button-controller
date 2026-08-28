@@ -1,0 +1,3 @@
+QUARTUS_VERSION = "18.1"
+DATE = "2026-08-28"
+PROJECT_REVISION = "ep4ce6_led_blink"

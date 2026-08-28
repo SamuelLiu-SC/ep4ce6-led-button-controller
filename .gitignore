@@ -1,0 +1,17 @@
+# Quartus generated output
+db/
+incremental_db/
+*.rpt
+*.summary
+*.sof
+*.pof
+*.done
+*.jdi
+*.pin
+*.sld
+*.qws
+*.chg
+*.qdf
+
+# GHDL generated files
+work-obj*.cf

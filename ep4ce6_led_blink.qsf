@@ -1,0 +1,19 @@
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE6E22C8
+set_global_assignment -name TOP_LEVEL_ENTITY ep4ce6_led_blink
+set_global_assignment -name VHDL_FILE ep4ce6_led_blink.vhd
+set_global_assignment -name SDC_FILE ep4ce6_led_blink.sdc
+set_location_assignment PIN_1  -to LEDS[0]
+set_location_assignment PIN_2  -to LEDS[1]
+set_location_assignment PIN_3  -to LEDS[2]
+set_location_assignment PIN_7  -to LEDS[3]
+set_location_assignment PIN_11 -to LEDS[4]
+
+set_location_assignment PIN_73  -to BUTTONS[3]
+set_location_assignment PIN_80  -to BUTTONS[2]
+set_location_assignment PIN_89  -to BUTTONS[1]
+set_location_assignment PIN_114 -to BUTTONS[0]
+set_location_assignment PIN_88  -to nRST
+set_location_assignment PIN_24 -to clk
+
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
