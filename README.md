@@ -2,6 +2,9 @@
 
 VHDL design for the EP4CE6E22C8N Cyclone IV E FPGA board.
 
+![image](7970065e-8d03-4716-a230-0c78e42a9dbe.jpeg)
+
+
 ## Functions
 
 - `BUTTONS(0..3)` control `LEDS(0..3)` respectively.
